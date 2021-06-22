@@ -1,0 +1,136 @@
+
+  
+  .inputColor {
+    color:#fafafa
+  }
+
+  .addinputColor {
+    color: black;
+  }
+
+  .contentContainer {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 0vh;
+    background-image: url(../Images/img-3.jpg);
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: bgUp 0.9s 0.7s ease-out forwards;
+    overflow: hidden;
+    color: #fafafa;
+  }
+  
+  .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 1rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: #ecf0f3;
+  }
+
+  .formLogin {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 1rem;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: black;
+  }
+  
+  .formTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .errorTitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .inputDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .inputDiv > input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    font-size: 1rem;
+    padding: 0.25rem;
+  }
+  
+  .signinBtn {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    margin: 2rem 0rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    color: #000;
+  }
+
+
+  .LogoutBtn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid var(--primary);
+    margin-left: 1rem;
+    border-radius: 2px;
+    padding: 8px 20px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+  }
+
+
+.LogoutBtn:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
+  
+  /* ANIMATIONS */
+  @keyframes bgUp {
+    from {
+      height: 0vh;
+    }
+    to {
+      height: 100vh;
+    }
+  }
+

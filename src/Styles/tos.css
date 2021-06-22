@@ -1,0 +1,42 @@
+body {
+    margin: 0 auto;
+  }
+  
+  .container {
+    /* Code here */
+    margin: 24px auto;
+      padding: 0 16px;
+      max-width: 960px;
+  }
+  
+  img {
+    width: 100px;
+  }
+  
+  h1 {
+    margin: 40px 0 8px 0;
+    font-size: 20px;
+  }
+  
+  h6 {
+    margin: 8px 0;
+    font-size: 12px;
+  }
+  
+  h2 {
+    margin: 16px 0 8px 0;
+    font-size: 16px;
+  }
+  
+  p {
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .bg {
+    background:#f4f4f4;
+  color:#91959c;
+  margin:0 -.9375rem
+  }
+  
